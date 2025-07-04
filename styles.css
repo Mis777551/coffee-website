@@ -67,6 +67,7 @@ ul{
     list-style: none;
 }
 
+
 html, 
 body {
     scroll-behavior: smooth;
@@ -144,6 +145,50 @@ nav{
     gap: 2 rem;
 }
 
+
+.header__image img{
+    max-width: 600px;
+    margin-inline: auto;
+}
+
+.header__content h1{
+    margin-bottom: 1rem;
+    font-size: 3rem;
+    font-weight: 700;
+    color: var(--white);
+    line-height: 4rem;
+    text-align: center;
+}
+
+.header__content .section__description{
+    margin-bottom: 2rem;
+}
+
+.header__btn{
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.header__stats{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.header__stats h4{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--white);
+}
+
+.header__stats p{
+    font-size: 0.9rem;
+    color: var(--extra-light);
+
+}
+
+
 @media (width > 768px) {
     nav{
         position: static;
@@ -184,6 +229,28 @@ nav{
     .nav__links .btn{
         padding: 0.75rem 1.5rem;
 
+    }
+
+    .header__container{
+        padding-block: 0;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: flex-end;
+    }
+
+    .header__image{
+        grid-area: 1/2/2/3
+    }
+
+    .header__content{
+        padding-block: 5rem;
+    }
+
+    .header__content :is(h1, .section__description, .header__btn) {
+        text-align: left;
+    }
+
+    .header__stats{
+        justify-content: flex-start;
     }
 
 
