@@ -214,6 +214,60 @@ nav{
     text-align: center;
 }
 
+.program{
+    background-color: var(--background-color-2);
+}
+
+.program__header{
+    display: grid;
+    gap: 1rem 4rem;
+}
+
+.program__grid{
+    margin-top: 4rem;
+    display: grid;
+    gap: 1rem;
+}
+
+.program__card{
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: var(--background-colo-3);
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+    transition: 0.3s;
+}
+
+.program__card:hover{
+    background-color: var(--secondary-color);
+}
+
+.program__card img{
+    max-width: 75px;
+    margin-bottom: 1rem;
+}
+
+.program__card h4{
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--white);
+}
+
+.program__card p{
+    margin-bottom: 1rem;
+    color: var(--extra-light);
+    line-height: 1.75rem;
+}
+
+.program__card a{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: var(--extra-light);
+
+}
+
+
 
 @media (width > 768px) {
     nav{
