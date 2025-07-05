@@ -73,3 +73,10 @@ ScrollReveal().reveal(".about__btn", {
     delay: 2000,
 });
 
+ScrollReveal().reveal(".program__card", {
+    ...scrollRevealOption,
+    delay: 1000,
+    interval: 500,
+});
+
+
