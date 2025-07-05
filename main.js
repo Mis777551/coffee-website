@@ -24,31 +24,30 @@ const scrollRevealOption= {
 }
 
 
-// Reveal header image from the right
+
 ScrollReveal().reveal(".header__image img", {
     ...scrollRevealOption,
     origin: "right",
 });
 
-// Reveal main heading
 ScrollReveal().reveal(".header__content h1", {
     ...scrollRevealOption,
     delay: 500,
 });
 
-// Reveal subheading or description
+
 ScrollReveal().reveal(".header__content .section__description", {
     ...scrollRevealOption,
     delay: 1000,
 });
 
-// Reveal button
+
 ScrollReveal().reveal(".header__btn", {
     ...scrollRevealOption,
     delay: 1500,
 });
 
-// Reveal stats section
+
 ScrollReveal().reveal(".header__stats", {
     ...scrollRevealOption,
     delay: 2000,
