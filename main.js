@@ -79,4 +79,25 @@ ScrollReveal().reveal(".program__card", {
     interval: 500,
 });
 
+ScrollReveal().reveal(".service__image img", {
+    ...scrollRevealOption,
+    origin: "right",
+});
+
+ScrollReveal().reveal(".service__content .section__header", {
+    ...scrollRevealOption,
+    delay: 500,
+});
+
+ScrollReveal().reveal(".service__list li", {
+    ...scrollRevealOption,
+    delay: 1000,
+    interval: 500,
+});
+
+ScrollReveal().reveal(".service__btn", {
+    ...scrollRevealOption,
+    delay: 2500,
+});
+
 
