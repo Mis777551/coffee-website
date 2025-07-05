@@ -271,6 +271,8 @@ nav{
     .program__grid{
         grid-template-columns: repeat(2, 1fr);
     }
+
+
 }
 
 @media (width > 768px) {
@@ -343,6 +345,19 @@ nav{
     }
     .about__content: is(.section__header, .section__description, .about__btn) {
         text-align: left;
+    }
+
+    .program__header{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .program__header :is(.section__header, .section__description) {
+        text-align: left;
+    }
+
+    .program__grid{
+        grid-template-columns: repeat(4, 1fr);
+
     }
 
     }
