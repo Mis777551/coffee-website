@@ -6,7 +6,7 @@
     --secondary-color: #ff552d;
     --background-color-1: #323b3f;
     --background-color-2: #37383c;
-    --background-colo-3: #464646;
+    --background-color-3: #464646;
     --extra-light: #dfdfdf;
     --white: #ffffff;
     --max-width: 1200px;
@@ -316,6 +316,67 @@ nav{
     margin-top: 2rem;
 }
 
+.testimonial {
+    background-color: var(--background-color-2);
+}
+
+.testimonial__container{
+    display: grid;
+    gap: 2rem;   
+}
+
+.testimonial__content .section__header{
+    margin-bottom: 1rem;
+}
+
+.testimonial__swiper{
+    overflow: hidden;
+}
+
+.testimonial__card{
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: var(--background-color-3);
+}
+
+.user__details{
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.user__details img{
+    max-width: 60px;
+    border-radius: 100%;
+}
+
+.user__details h4{
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--white);
+}
+
+.user__details h5{
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: var(--extra-light);
+}
+
+.user__ratings{
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 1.2rem;
+    color: goldenrod;
+}
+
+.testimonial__card .section__description{
+    text-align: left;
+}
+
+
 @media (width> 540px) {
     .program__grid{
     grid-template-columns: repeat(2, 1fr);
@@ -416,7 +477,7 @@ nav{
 
     .service__content{
         padding-block: 5rem;
-        
+
     }
 
     }
