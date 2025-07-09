@@ -50,3 +50,18 @@ nav ul li a:hover{
     color: #34a373;
 }
 
+.hero{
+     background-image: url('https://images.pexels.com/photos/1235717/pexels-photo-1235717.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+     height: 90vh;
+     background-size: 100%;
+     background-repeat: no-repeat;
+     background-position: center;
+     display: flex;
+     align-items: center;
+     text-align: center;
+     color: #fff;
+     animation: fadein 2s ease;
+}
+
+
+
