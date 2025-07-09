@@ -30,3 +30,9 @@ header{
     font-size: 1.8cm;
     font-weight: bold;
 }
+
+nav ul{
+    list-style: none;
+    display: flex;  
+}
+
